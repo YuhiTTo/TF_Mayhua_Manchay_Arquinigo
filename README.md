@@ -58,6 +58,11 @@ SVM (RBF)	58.1 %	0.4455	0.6000
 
 Random Forest fue el modelo seleccionado por su mayor desempeño general y mejor capacidad discriminativa.
 
+## Conclusiones
+- El proyecto desarrolló un sistema de machine learning enfocado en la predicción de valorizaciones de criptomonedas de baja capitalización, alcanzando un F1-Score de 0.6861 y un AUC-ROC de 0.7990, lo cual valida su capacidad para identificar oportunidades de inversión superiores al azar.
+- Se utilizaron algoritmos supervisados como Random Forest, que mostró mejor desempeño frente a otras técnicas evaluadas, debido a su capacidad para modelar relaciones no lineales y tolerar ruido en los datos financieros.
+- Las características técnicas como la media móvil de 7 días (ma_7) y el volumen de transacciones resultaron ser los predictores más importantes del modelo, superando en relevancia a las etiquetas temáticas como IA, Gaming o Memes, lo que sugiere que los patrones cuantitativos tienen mayor peso en el comportamiento de corto plazo.
+
 ## 📂 Estructura del repositorio
 - css
 - Copiar
@@ -67,7 +72,7 @@ Random Forest fue el modelo seleccionado por su mayor desempeño general y mejor
 - 📁 src/                 → Scripts de preprocesamiento y entrenamiento
 - 📄 README.md            → Descripción general del proyecto
 
-##🚀 Requisitos
+## 🚀 Requisitos
 Python 3.11
 
 Pandas, NumPy
