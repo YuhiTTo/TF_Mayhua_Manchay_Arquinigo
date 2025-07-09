@@ -1,5 +1,5 @@
 # TF-Machine-Learning
-🔍 Predicción de Criptomonedas Emergentes con Machine Learning
+## 🔍 Predicción de Criptomonedas Emergentes con Machine Learning
 Este proyecto aplica técnicas de Machine Learning para identificar criptomonedas emergentes con alto potencial de valorización en el corto plazo (30 días). El objetivo es brindar soporte a decisiones de inversión mediante un sistema predictivo basado en datos históricos, características cuantitativas y narrativas temáticas del ecosistema cripto.
 
 ## 📊 Descripción del problema
@@ -15,12 +15,12 @@ Memecoins (Memes)
 
 La meta es anticipar qué activos tienen probabilidad de valorización ≥15 % en los siguientes 30 días.
 
-##🧠 Algoritmos utilizados
+## 🧠 Algoritmos utilizados
 Se entrenaron y evaluaron dos modelos de clasificación supervisada:
 
-🌲 Random Forest Classifier
+- 🌲 Random Forest Classifier
 
-🧮 Support Vector Machine (SVM)
+- 🧮 Support Vector Machine (SVM)
 
 El modelo final fue seleccionado con base en métricas como accuracy, F1-score y AUC-ROC.
 
@@ -54,13 +54,13 @@ SVM (RBF)	58.1 %	0.4455	0.6000
 Random Forest fue el modelo seleccionado por su mayor desempeño general y mejor capacidad discriminativa.
 
 ## 📂 Estructura del repositorio
-css
-Copiar
-Editar
-📁 data/                → Datasets limpios y procesados
-📁 notebooks/           → Jupyter Notebooks con EDA y modelado
-📁 src/                 → Scripts de preprocesamiento y entrenamiento
-📄 README.md            → Descripción general del proyecto
+- css
+- Copiar
+- Editar
+- 📁 data/                → Datasets limpios y procesados
+- 📁 notebooks/           → Jupyter Notebooks con EDA y modelado
+- 📁 src/                 → Scripts de preprocesamiento y entrenamiento
+- 📄 README.md            → Descripción general del proyecto
 
 ##🚀 Requisitos
 Python 3.11
