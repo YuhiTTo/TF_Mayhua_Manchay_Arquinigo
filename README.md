@@ -1,4 +1,9 @@
 # TF-Machine-Learning
+## Integrantes
+- José Antonio Mayhua Hinostroza
+- Lucero Salome Manchay Paredes
+- Ibrahim Imanol Jordi Arquiñigo Jacinto
+
 ## 🔍 Predicción de Criptomonedas Emergentes con Machine Learning
 Este proyecto aplica técnicas de Machine Learning para identificar criptomonedas emergentes con alto potencial de valorización en el corto plazo (30 días). El objetivo es brindar soporte a decisiones de inversión mediante un sistema predictivo basado en datos históricos, características cuantitativas y narrativas temáticas del ecosistema cripto.
 
@@ -27,15 +32,15 @@ El modelo final fue seleccionado con base en métricas como accuracy, F1-score y
 ## 📈 Datos
 Los datos fueron extraídos mediante la API pública de CryptoCompare e incluyen:
 
-Precios diarios (open, high, low, close)
+- Precios diarios (open, high, low, close)
 
-Volumen de transacciones
+- Volumen de transacciones
 
-Variables derivadas: retorno porcentual diario, media móvil de 7 días, volatilidad
+- Variables derivadas: retorno porcentual diario, media móvil de 7 días, volatilidad
 
-Clasificación temática manual (narrativa)
+- Clasificación temática manual (narrativa)
 
-Total: más de 6,400 registros históricos entre 2023 y 2025.
+- Total: más de 6,400 registros históricos entre 2023 y 2025.
 
 ## 🎯 Variable objetivo
 La variable target se definió como:
